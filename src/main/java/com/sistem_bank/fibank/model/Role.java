@@ -12,7 +12,7 @@ public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", nullable = false, updatable = false, unique = true)
-    private int id;
+    private Integer id;
 
     @Column(name = "name", unique = true, nullable = false)
     private String name;
