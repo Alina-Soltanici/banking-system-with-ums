@@ -1,0 +1,2 @@
+ALTER TABLE auth.users
+ADD COLUMN phone_number VARCHAR(30) UNIQUE;
