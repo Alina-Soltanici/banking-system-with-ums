@@ -1,4 +1,19 @@
 package com.sistem_bank.fibank.model;
 
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
+
+@Entity
+@Setter
+@Getter
+@Table(name = "roles", schema = "auth")
 public class Role {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id", nullable = false, updatable = false, unique = true)
+    private int id;
+
+    @Column(name = "name", unique = true, nullable = false)
+    private String name;
 }
