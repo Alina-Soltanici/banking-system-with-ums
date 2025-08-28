@@ -1,4 +1,7 @@
 package com.sistem_bank.fibank.repository;
 
-public interface RoleRepository {
+import com.sistem_bank.fibank.model.Role;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface RoleRepository extends JpaRepository<Role, Integer> {
 }
