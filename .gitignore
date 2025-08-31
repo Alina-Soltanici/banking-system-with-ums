@@ -1,8 +1,28 @@
 # IntelliJ IDEA
 .idea/
 *.iml
+*.iws
+out/
 
 # Maven
 target/
 
-HELP.md
+# Logs
+*.log
+logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment / local config
+*.env
+*.properties.local
+
+# Lombok generated files (opțional)
+generated/
+
+# Eclipse (dacă folosești vreodată)
+*.classpath
+*.project
+*.settings/
