@@ -1,4 +1,4 @@
-package com.sistem_bank.fibank.model;
+package com.sistem_bank.fibank.domain;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -2,7 +2,7 @@ package com.sistem_bank.fibank.mapper;
 
 import com.sistem_bank.fibank.dto.SignupRequest;
 import com.sistem_bank.fibank.dto.SignupResponse;
-import com.sistem_bank.fibank.model.User;
+import com.sistem_bank.fibank.domain.User;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

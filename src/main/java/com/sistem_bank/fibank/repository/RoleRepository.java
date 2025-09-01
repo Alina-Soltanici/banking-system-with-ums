@@ -1,6 +1,6 @@
 package com.sistem_bank.fibank.repository;
 
-import com.sistem_bank.fibank.model.Role;
+import com.sistem_bank.fibank.domain.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

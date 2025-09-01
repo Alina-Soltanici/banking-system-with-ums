@@ -1,6 +1,6 @@
 package com.sistem_bank.fibank.config;
 
-import com.sistem_bank.fibank.model.Role;
+import com.sistem_bank.fibank.domain.Role;
 import com.sistem_bank.fibank.repository.RoleRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
